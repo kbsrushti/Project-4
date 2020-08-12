@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Montserrat' , sans-serif;
+    background-color: rgb(32, 29, 29);
+    color: white;
+}
+
+#head
+{
+    background: url(../img/home.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#head .dark-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0,0,0,0.7);
+}
+#head .head-content
+{
+    padding-top: 180px;
+}
+#head .fa-check, #share .fa-check
+{
+    color: red;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#explore .d-flex .fa-check
+{
+    color: red;
+    background-color: rgb(17, 1, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
+#connect .d-flex .fa-check
+{
+    color: red;
+    background-color: rgb(17, 1, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
+#learn .d-flex .fa-check
+{
+    color: red;
+    background-color: rgb(17, 1, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
+footer h5
+{
+  font-size: 15px;
+}
+footer p
